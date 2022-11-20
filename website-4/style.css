@@ -1,0 +1,46 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.bg {
+    background: url('background.jpg') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .text{
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+.container-1{
+      text-align: center;
+      padding: 1.87rem;
+      margin-top: 20%;
+      margin-left: 50%;
+      width: auto;
+      height: auto;
+      color: whitesmoke;
+      background: transparent;
+      background-color: rgba(216, 216, 216, 0.2);
+      transform: translate(-50%, -20%);
+      border-radius: .4em;
+  }
+
+  .section-width{
+    margin-left: 2rem;
+  }
+
+  @media screen and (max-width: 700px) {
+    .container-1{
+      width: 100%;
+    }
+  }

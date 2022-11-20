@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 1px;
+}
+
+body{
+    background-color: white;
+}
+
+#topbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 520rem;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-size:100% 100% ;
+    opacity: 0.8;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50rem;
+    z-index: 5;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 50rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+#brand{
+    color: whitesmoke;
+    margin: 10rem 15rem;
+    font-size: 24rem; 
+    transition: 0.4s;
+}
+#navbar img{
+    margin-left: 40rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+#brand:hover{
+    font-size: 28.8rem;
+    text-shadow: 4rem 4rem #666666;
+}
+
+#navbar ul{
+    display: flex;
+    flex-grow: 0.94;
+    justify-content: flex-end;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 20.8rem;
+}
+
+#navbar ul li a{
+    display: block;
+    margin-top: -40rem;
+    padding-top: 42rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-bottom: 0rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#navbar ul li a:hover{
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    color: #212121;
+    font-size: 18rem;
+    opacity:0.8;
+    border-bottom-left-radius: 50rem 20rem;
+    border-bottom-right-radius: 50rem 20rem;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 520rem;
+    font-size: 24rem;
+}
+
+#marg{
+    margin-inline-end: 130rem;
+}
+
+#marg h1{
+    color: #212121;
+}
+
+#marg p{
+    color: #212121;
+}
+
+#logo img{
+    width: 300rem;
+    height:300rem;
+    transition: 0.4s;
+}
+
+#logo img:hover{
+    width: 400rem;
+    height: 400rem;
+}
+
+#service{
+    font-size: 24rem;
+    text-align: center;
+    margin-top: 22rem;
+    padding-bottom: 12rem;
+    color: #474646;
+}
+
+#ourservice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 250rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20rem 20rem;
+    background: url(../image/water.png) no-repeat;
+    background-position: bottom;
+    background-size: 400rem 200rem;
+    font-size: 15rem;
+}
+
+.item img{
+    width: 100rem;
+    height: 100rem;
+    padding: 10rem;
+    transition: 0.4s;
+}
+
+.item img:hover{
+    width: 80rem;
+    height: 80rem;
+}
+
+#something{
+    width: 100%;
+    height: 580rem;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    margin-top: 40rem;
+    padding-top: 20rem;
+    text-align: center;
+}
+
+.review{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40rem 10rem;
+}
+
+.review1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50rem 10rem;
+    margin-bottom: 32rem;
+}
+.newpara{
+    display: block;
+    width: 70%;
+    text-align: left;
+    font-size: 20rem;
+}
+
+.newpara1{
+    display: block;
+    width: 70%;
+    text-align: right;
+    font-size: 20rem;
+}
+
+#formback{
+    background-color: #d4fc79;
+opacity: 0.7;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #d4fc79 150rem ), repeating-linear-gradient( #96e6a155, #96e6a1 );
+width: 100%;
+height: 500rem;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20rem;
+    padding: 20rem;
+}
+
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    width: 100%;
+    height: 50rem;
+    font-size: 10rem;
+}
+
+.css-input {
+    padding: 5rem;
+    font-size: 25rem;
+    border-width: 1rem;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: black;
+    border-style: solid;
+    border-radius: 10rem;
+    box-shadow: 0rem 0rem 5rem #d4fc79;
+    text-shadow: 0rem 0rem 5rem #d4fc79 ;
+    margin: 10rem;
+}
+.css-input:focus {
+    outline:none;
+}
+
+#btn {
+    margin-top: 10rem;
+    font-weight: bold;
+    color: #212121 !important;
+    font-size: 20rem;
+    text-shadow: 1rem 1rem 0rem #D4FC79;
+    box-shadow: 1rem 1rem 1rem #96e6a1;
+    padding: 10rem 25rem;
+    border: 2rem #212121 solid;
+    border-radius: 10rem;
+    background: #96E6A1;
+    background: linear-gradient(to top, #96E6A1, #D4FC79);
+  }
+  #btn:hover {
+    color: #212121 !important;
+    background: #D4FC79;
+    background: linear-gradient(to top, #D4FC79, #96E6A1);
+  }
+
+  .review img{
+      width: 250rem;
+      height: 200rem;
+      margin-right: 40rem;
+      border-radius: 50%;
+  }
+
+  .review1 img{
+    width: 250rem;
+    height: 200rem;
+    margin-right: 40rem;
+    border-radius: 50%;
+  }
+
+  @media(max-width:1240px){
+      html{
+          font-size: .8px;
+      }
+  }
+
+  @media(max-width:980px){
+    html{
+        font-size: .7px;
+    }
+}
+
+@media(max-width:800px){
+    html{
+        font-size: .6px;
+    }
+}
+
+@media(max-width:680px){
+    html{
+        font-size: .4px;
+    }
+
+    #navbar ul li{
+        list-style: none;
+        font-size: 35rem;
+    }
+}
+
+@media(max-width:540px){
+    html{
+        font-size: .37px;
+    }
+
+    #ourservice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 700rem;
+    }
+
+    #navbar ul li{
+        list-style: none;
+        font-size: 35rem;
+    }
+    
+    
+}
+
+@media(max-width:414px){
+    html{
+        font-size: .35px;
+    }
+
+    #ourservice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 700rem;
+    }
+
+    #ourservice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 700rem;
+    }
+
+    #navbar ul li{
+        list-style: none;
+        font-size: 35rem;
+    }
+
+    @media(max-width:380px){
+        html{
+            font-size: .25px;
+        }
+    
+        #ourservice{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 700rem;
+        }
+    
+        #ourservice{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 700rem;
+        }
+    
+        #navbar ul li{
+            list-style: none;
+            font-size: 35rem;
+        }
+}
