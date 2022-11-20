@@ -76,7 +76,7 @@ const getCheckAnswer = () => {
 };
 
 const deselectAll = () => {
-    answers.foreach((curAnsElem) => curAnsElem.checked = false);
+    answer.foreach((curAnsElem) => curAnsElem.checked = false);
 }
 
 submit.addEventListener('click', () => {
